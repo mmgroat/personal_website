@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "../master.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Michael M. Groat - Publications</title>
+<!-- #EndEditable -->
+<link href="../styles/style1.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+<style type="text/css">
+.style1 {
+	color: #3F58BC;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Begin Container -->
+<div id="container">
+	<!-- Begin Masthead -->
+	<div id="masthead">
+		<h1>Michael M. Groat's Homepage</h1>
+		<!-- <h3>The University of New Mexico</h3> -->
+	</div>
+	<!-- End Masthead -->
+	<!-- Begin Navigation -->
+	<div id="navigation">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../about_me/about_me.htm">About Me</a></li>
+			<li><a href="publications.htm">Publications</a></li>
+			<li><a href="../education/education.htm">Education</a></li>
+			<li><a href="../resume/resume.htm">Résumé/CV</a></li>
+			<li><a href="../genealogy_home/genealogy_home.htm">Genealogy</a></li>
+			<!-- <li><a href="../calendar/calendar.htm">Public Calendar</a></li> -->
+		</ul>
+	</div>
+	<!-- End Navigation -->
+	<!-- Begin content_container -->
+	<div id="content_container" style="HEIGHT: 1000px">
+		<!-- Begin Left Column -->
+		<div id="column_left" align="justify" style="WIDTH: 300px">
+			<!-- #BeginEditable "content" -->
+			<h2>Publications</h2>
+			<h4>Refereed Journals:</h4>
+			<ul>
+				<li style="width: 530px;">Michael M. Groat, Benjamin Edwards, 
+				James Horey, Wenbo He, and Stephanie Forrest, <strong>Applications 
+				and Analysis of Multidimensional Negative Surveys in Participatory 
+				Sensing Applications</strong>, <em>Journal of Pervasive and Mobile 
+				Computing</em>, Vol. 9, Issue 3, June 2013, pp. 372-381. DOI: 10.1016/j.pmcj.2012.12.004</li>
+			</ul>			
+			<BR>
+			<h4>Refereed Conferences:</h4>
+			<ul>
+				<li style="width: 530px;"> Michael M. Groat, 
+				Benjamin Edwards, James Horey, Wenbo He, and Stephanie Forrest,
+				<strong>Enhancing Privacy in Participatory Sensing Applications 
+				with Multidimensional Data</strong>, In <em>Proceedings of the 
+				Tenth Annual IEEE International Conference on Pervasive Computing and 
+				Communications (PerCom &#39;12)</em>, March 2012, pp. 144-152, Lugano, 
+				Switzerland. 
+				<br /> (Acceptance ratio: 10.7% = 16/150)
+                                <br /> [<a href="http://www.cs.unm.edu/~mgroat/publications/Groat_PerCom_2012_author_copy.pdf">PDF</a>]
+				</li>
+				<br />
+				<li style="width: 530px;"> Michael M. Groat, 
+				Wenbo He, and Stephanie Forrest, <strong>KIPDA: </strong> 					<em><strong>k</strong></em><strong>-Indistinguishable 
+				Privacy-preserving Data Aggregation in Wireless Sensor Networks</strong>, 
+				In <em>Proceedings of the Thirtieth Annual IEEE International Conference on 
+				Computer Communications (InfoCom &#39;11)</em>, April 2011, pp. 2024-2032, 
+				Shanghai, China. 
+				<br /> (Acceptance ratio: 16.0% = 291/1823)
+				<br /> [<a href="http://www.cs.unm.edu/~mgroat/publications/InfoCom_2011_KIPDA.pdf">Presentation</a>][<a href="http://www.cs.unm.edu/~mgroat/publications/k-indistinguishable_bibtex.bib">BibTeX</a>][<a href="http://www.cs.unm.edu/~mgroat/publications/KIPDA_InfoCom_2011_personal_final.pdf">PDF</a>]
+				</li>
+				<br />
+				<li style="width: 530px;"> James Horey, Michael M. Groat, Stephanie Forrest, and Fernando Esponda,<strong> Anonymous 
+				Data Collection in Sensor Networks</strong>, In <em>Proceedings 
+				of the Fourth Annual International Conference on Mobile and 
+				Ubiquitous Systems: Networking &amp; Services (Mobiquitous &#39;07)</em>, 
+				August 2007, pp. 1-8, Philadelphia, PA, USA. 
+				<br /> (Acceptance ratio: 22.7% = 27/119) 
+				<br /> [<a href="http://www.cs.unm.edu/~mgroat/publications/Anonymous_bibtex.bib">BibTeX</a>][<a href="http://www.cs.unm.edu/~mgroat/publications/mobiquitous07_negsurvey.pdf">PDF</a>] 
+				</li>
+			</ul>
+                        
+                        <BR>
+			<h4>Workshops:</h4>
+			<ul>
+				<li style="width: 530px;">James Horey, Stephanie Forrest, 
+				Michael Groat, <strong>Reconstructing Spatial Distributions from 
+				Anonymized Locations</strong>, In <em>ICDE Workshop on Secure 
+				Data Management on Smartphones and Mobiles</em>, April 2012. In 
+				Press, Washington DC, USA.
+				</li>
+			</ul>			
+			<BR>
+ 			<h4>Thesis and Dissertation:</h4>			
+			<ul>
+				<li style="width: 530px;">
+				<p class="MsoNormal">
+				<span style="language: EN; mso-ansi-language: EN">Michael M. 
+				Groat, <strong>Energy Conserving Privacy Enhancing Algorithms for Resource-Constrained Devices</strong>, Ph.D. Dissertation, University of New Mexico, 
+				Albuquerque, New Mexico, USA, December 2012. <br /> [<a href="http://www.cs.unm.edu/~mgroat/publications/Groat_final_defense_presentation.pdf">Presentation</a>][<a href="http://www.cs.unm.edu/~mgroat/publications/Groat-dissertation.pdf">PDF</a>] </span></p>
+				</li>
+				<li style="width: 530px;">
+				<p class="MsoNormal">
+				<span style="language: EN; mso-ansi-language: EN">Michael M. 
+				Groat, <strong>Using Fuzzy K-Mode to Analyze Patterns of System Calls for 
+				Intrusion Detection</strong>, M.S. Thesis, California State University, East 
+				Bay, Hayward, California, USA, December 2005. <br /> [<a href="http://www.cs.unm.edu/~mgroat/publications/Presentation.ppt">Presentation</a>][<a href="http://www.cs.unm.edu/~mgroat/publications/Thesis_Mike_Groat_final.doc">PDF</a>] </span></p>
+				</li>
+							</ul>
+			<!-- <p>&nbsp;</p>
+			<p style="width: 540px">&nbsp;</p> -->
+			<!-- #EndEditable -->
+		<!-- End Left Column -->
+		<!-- Begin Footer -->
+		</div>	<!--	
+		<div id="footer">
+			<div id="copyright">
+				<p>Copyright © 2009. <!-- All Rights Reserved. --> <!-- </p> 
+			</div>
+			<p>&nbsp; <!--<a href="../index.html">Home</a> | 
+			<a href="../about_me/about_me.htm">About 
+			Me</a> | <a href="../resume/resume.htm">Résumé</a> |
+			<a href="publications.htm">P<span class="style1">ublications</span></a> |
+			<a href="../genealogy_home/genealogy_home.htm">G<span class="style1">enealogy</span></a> | 
+			<a href="../education/education.htm">
+			E<span class="style1">ducation</span></a></p> -->
+		<!-- </div>
+		<!-- End Footer -->
+	<!-- End content_container -->
+	</div>
+<!-- End Container -->
+</div>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

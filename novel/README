@@ -1,0 +1,128 @@
+######################################################################
+# Guestbook                               Version 1.1                #
+# Copyright 1999 Frederic TYNDIUK (FTLS)  All Rights Reserved.       #
+# E-Mail: tyndiuk@ftls.org                Script License: GPL        #
+# Created  05/30/99                       Last Modified 06/30/99     #
+# Scripts Archive at:                     http://www.ftls.org/cgi/   #
+######################################################################
+
+
+1. What is it ?
+===============
+
+	Guestbook is a classical script who visitor can write some word...
+
+
+2. System Requirements:
+=======================
+
+	- Perl 4.0 or newer; you can get it at http://www.perl.com/
+	- A web server, you must have access to add / execute CGI scripts.
+
+
+3. What this archive contains ?
+===============================
+
+	This archive comes with 6 differents files:
+	    1) COPYING:      Copyright informations (GPL).
+	    2) README:       This file.
+	    3) LISEZMOI:     French doc...
+	    4) gestbook.cgi: The Perl script.
+	    5) guestbook.html: file will contain guestbook entries.
+	    6) cgi-lib.pl:   CGI-Lib of Steven E. Brenner used here.
+
+
+4. Installation and Configuration:
+==================================
+
+	It's a Perl script, so installation is pretty easy. You don't need to
+compile anything.
+
+	Copy gestbook.cgi, cgi-lib.pl in your /cgi-bin/ directory
+	Make it executable, unix only (chmod a+rx gestbook.cgi)
+	
+	Edit gestbook.cgi, you will have to do some configuration:
+	
+		Change #/usr/bin/perl, if it's necessary...
+
+		Change in "Necessary Variables Section"
+
+	$GuestBookURL = "http://www.hostname.dom/dir/guestbook.html";
+	URL of Guestbook.
+	
+	$GuestBookReal = "/Absolute/path/to/guestbook.html";
+	Real path of Guestbook.
+
+	$Motif = "<!-- Value_Add_Comments -->"; 
+		# The next Comments will be insert here...
+
+	@Referers    = ("http://www.host1.dom", "http://www.host2.dom");
+		# URL(s) of serveur you can use this script.
+
+	$WebmasterEMail = "webmaster\@hostname.dom"; # Webmaster E-Mail.
+
+	%UsersMessages = ("InvData", "FTLS's Guestbooks<BR>Invalid Submit data",
+         "Thanks" , "FTLS's Guestbooks<BR>Thank You For Signing The Guestbook",
+         "Back"   , "Back");
+	# If you want, you can change all messages, edit it's...
+		
+	Options:
+		$UseLog = 0;      # Use Log File ? 1 = YES; 0 = NO
+		$LogFile = "/Absolute/path/to/GuestBook-Log.txt";
+		Configure this if you want logs users...
+
+	Edit guestbook.html to change look, and 
+<FORM ... ACTION="http://www.hostname.dom/cgi-bin/gestbook.cgi">
+	Do not delete the line <!-- Value_Add_Comments --> from this guestbook,
+or else the script will have no way of knowing where to begin the editing.
+
+
+5. How to run it ?
+==================
+
+	go on http://www.hostname.dom/dir/guestbook.html
+
+
+6. Version history:
+===================
+
+	Version 1.1         06/30/99  - Script Updated
+                                        - Add security tips.
+                                        - Add French comments
+                                        - Add %UsersMessages
+										
+	Version 1.0         05/30/99  - Script Created.
+
+
+7. Copyright:
+=============
+
+	This software is copyright (C) 1999 Frederic TYNDIUK. It is distributed
+under the terms of the GNU General Public License (GPL). Because it is licensed
+free of charge, there is NO WARRANTY, it is provided AS IS. The author can not
+be held liable for any damage that might arise from the use of this software.
+Use it at your own risk. 
+	See the file COPYING for more details (or http://www.gnu.org/).
+
+
+8. Updates ?
+============
+
+	Latest version and New Scripts can be found at:
+	
+			http://www.ftls.org/en/
+
+
+9. Contact:
+===========
+
+	Please feel free to contact me with any comments, suggestions, bug fixes
+criticism, or just a happiness messages.
+
+	If you run into any problems while trying to configure these scripts
+first read this file carefully, if you don't find any solution, send me a Mail.
+
+	E-Mail: tyndiuk@ftls.org
+	Web: http://www.ftls.org/
+
+                                                  Frederic TYNDIUK

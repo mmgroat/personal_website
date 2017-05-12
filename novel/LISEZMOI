@@ -1,0 +1,138 @@
+######################################################################
+# Guestbook                               Version 1.1                #
+# Copyright 1999 Frederic TYNDIUK (FTLS)  All Rights Reserved.       #
+# E-Mail: tyndiuk@ftls.org                Script License: GPL        #
+# Created  05/30/99                       Last Modified 06/30/99     #
+# Scripts Archive at:                     http://www.ftls.org/cgi/   #
+######################################################################
+
+
+1. Qu'est ce que c'est ?
+========================
+
+	Ce script permet aux viteurs de laisser un message dans votre Guestbook
+(livre d'or).
+
+
+2. Dépendances:
+===============
+
+	- Perl 4.0 ou une version plus récente; vous pouvez le trouver sur
+http://www.perl.com
+	- Un serveur Web avec la possibilité d'ajouter/exécuter des scripts CGI.
+	
+
+3. Que contient cette archive ?
+===============================
+
+	Cette Archive contient 6 fichiers différents:
+	    1) COPYING:    La licence de ce programme (GPL).
+	    2) README:     La doc en anglais...
+	    3) LISEZMOI:   Ce fichier...
+	    4) gestbook.cgi: Le script Perl
+	    5) guestbook.html: La page HTML pour le Guestbook.
+	    6) cgi-lib.pl: Bibliothèque CGI-Lib (de Steven E. Brenner).
+
+
+4. Installation et Configuration:
+=================================
+
+	C'est un script Perl, l'installation est simple. Vous n'avez pas besoin de
+compiler quelque chose...
+
+	Copier gestbook.cgi, cgi-lib.pl dans le répertoire /cgi-bin/
+	Rendez le exécutable (chmod a+rx gestbook.cgi) Unix seulement...
+
+	Pour le bon fonctionnement de ce script, vous avez quelques configurations
+	à faire...
+	
+		Editer la section "Necessary Variables" de gestbook.cgi et faite les
+		changements suivant :
+
+	$GuestbookURL = "http://www.hostname.dom/dir/guestbook.html"; 
+		L'URL du Guestbook
+
+	$GuestbookRealPath = "/Absolute/path/to/guestbook.html";
+		Le chemin complet du fichier Guestbook
+
+	$Motif = "<!-- Value_Add_Comments -->"; 
+		Où ajouter le commentaire suivant, doit être le même que dans le
+	fichier HTML.
+
+	@Referers    = ("http://www.host1.dom", "http://www.host2.dom"); 
+		Liste des serveurs a partir desquels on peut utiliser ce script.
+
+	$WebmasterEMail = "webmaster\@ftls.org"; # l'E-Mail du Webmaster
+
+	Pour utiliser les messages en francais, supprimez les commentaires,
+Vous pouvez bien sur les modifier...
+	%UsersMessages = ("InvData","FTLS's Guestbooks<BR>Données Incomplettes...",
+         "Thanks" , "FTLS's Guestbooks<BR>Merci d'avoir signer ce livre d'or.",
+          "Back"   , "Retour");
+
+
+	# Options:
+	$UseLog = 0;      # Use Log File ? 1 = YES; 0 = NO
+	$LogFile = "/Absolute/path/to/Guestbook-Log.txt";
+	Si vous désirez avoir une trace des visiteurs qui ont utilisé ce script.
+
+
+		Editer guestbook.html et changer le look, et 
+	<FORM ... ACTION="http://www.hostname.dom/cgi-bin/gestbook.cgi">
+	Les choses à ne pas changer sont :
+		- la ligne <!-- Value_Add_Comments --> (Place où ajouter le prochain
+		commentaire)
+		- Les champs "Name" du formulaire, le reste peut être changé...
+
+
+5. Comment l'utiliser ?
+=======================
+
+	Allez sur l'URL http://www.hostname.dom/dir/guestbook.html
+
+
+6. Histoire:
+============
+
+	Version 1.1         30/06/99  - Mise à jour.
+                                        - Suppression de trous de Sécurité.
+                                        - Commentaires Francais / LISEZMOI
+                                        - Ajout %UsersMessages
+										
+	Version 1.0         30/06/99  - Création du Script.
+
+
+7. Copyright:
+=============
+
+	This software is copyright (C) 1999 Frédéric TYNDIUK. It is distributed
+under the terms of the GNU General Public License (GPL). Because it is licensed
+free of charge, there is NO WARRANTY, it is provided AS IS. The author can not
+be held liable for any damage that might arise from the use of this software.
+Use it at your own risk. 
+	See the file COPYING for more details (or http://www.gnu.org/).
+
+
+8. Nouvelles versions:
+=====================
+
+	Les nouvelles versions ainsi que d'autres scripts sont disponibles sur:
+
+		http://www.ftls.org/fr/
+
+
+9. Contact:
+===========
+	
+	N'hésitez pas à m'envoyez un mail si vous avez des commentaires, des
+suggestions, si vous trouvez des bugs, ou si vous avez des critiques, ou juste
+pour me dire que vous aimez ce programme...
+
+	Si vous avez des problèmes de configuration, d'utilisation de ces
+scripts, relisez ce document en premier, si vous ne trouvez pas la 
+solution, n'hésitez pas à me contacter...
+
+	E-Mail: tyndiuk@ftls.org
+	Web: http://www.ftls.org/
+
+                                                  Frederic TYNDIUK
